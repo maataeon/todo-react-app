@@ -1,0 +1,61 @@
+.modal-groups {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00000066;
+    z-index: 200 !important;
+}
+
+.modal-content {
+    background: #fefefe;
+    width: 40vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #999 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #00000061;
+}
+
+.modal-body {
+    padding: 1rem;
+    display: flex;
+}
+
+.color-sample {
+    width: 4rem;
+    height: 4rem;
+    border: solid #999 1px;
+    background-color: rgb(255, 193, 7);
+}
+
+.swatches-picker {
+    position: absolute;
+}
+
+.modal-header {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-bottom: solid #999 1px;
+}
+
+.modal-footer {
+    border-top: solid #999 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-footer button {
+    margin: 1rem;
+}
+
+input.input-group {
+    width: 80% !important;
+    margin: 0 2rem !important;
+    text-indent: 1rem;
+}

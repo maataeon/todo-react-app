@@ -1,0 +1,159 @@
+.creator {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    border: solid #999 1px;
+    background-color: #efefef;
+    border-radius: 3px;
+    min-width: 500px;
+}
+
+.select-group-option {
+    display: flex;
+    align-items: center;
+}
+
+.option-name {
+    padding: 0 1rem;
+    flex-grow: 1;
+}
+
+.task-section, .group-section {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.group-list .select__input {
+    height: 1rem !important;
+}
+
+.group-list{
+    flex-grow: 1;
+    padding: 0 2rem;
+}
+
+input.input-task {
+    height: 2.5rem !important;
+    margin: 0 2rem !important;
+    text-indent: 1rem;
+    
+}
+
+.option-color-sample {
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    margin: 0 0.2rem;
+}
+
+.tasks-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.tasks {
+    border: solid #00000026 1px;
+    flex-grow: 1;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 4px 4px 4px #00000024;
+    margin: 0 1rem;
+    min-width: 300px;
+}
+
+.tasks-header {
+    height: 2rem;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.tasks-body {
+    padding: 1rem;
+}
+
+.task {
+    background-color: #fff;
+    border: solid #bdbdbd 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+    align-items: center;
+    box-shadow: 1px 1px 3px #00000040;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #b1b1b1;
+    border-bottom: solid #6e6e6e 1px;
+    padding: 0.3rem;
+}
+
+.task-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.done {
+    opacity: .5;
+    filter: grayscale(.8) blur(1px);
+}
+
+.task .group {
+    width: 1rem;
+    background-color: sandybrown;
+    height: 3rem;
+}
+
+.creator a.btn {
+    margin: 0 2rem;
+    padding: 0.25rem;
+    min-width: 9rem;
+    line-height: 2rem;
+}
+
+
+.delete-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    opacity: 0.5;
+    line-height: 1rem;
+    border: none;
+    margin: 0 0.5rem;
+}
+
+.delete-btn:hover {
+  opacity: .7;
+  background-color: red;
+  color: white;
+  transition-duration: 500ms;
+}
+
+.task .title, .task .description{
+    padding: .5rem;
+    text-indent: 1rem;
+    flex-grow: 1;
+}
+
+.task .title {
+  font-weight: bold;
+}
+
+.task .description {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.creator .cleaning-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 1rem;
+}
