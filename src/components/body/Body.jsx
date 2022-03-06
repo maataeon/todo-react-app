@@ -1,5 +1,4 @@
 import React from 'react'
-import Modal from '../modal'
 import Todo from '../todo'
 
 const Body = () => {

@@ -14,10 +14,10 @@ const Tasks = () => {
 
   useEffect(() => {
     dispatch(getStorageData());
-  }, []);
+  });
 
   const getGroupById = (groupId) => {
-    return state.groups.find(group => group.id == groupId)
+    return state.groups.find(group => group.id === groupId)
   };
 
 

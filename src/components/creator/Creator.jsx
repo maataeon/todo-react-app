@@ -62,7 +62,7 @@ const Creator = () => {
           key={state.selectedGroupId}
           className="group-list"
           classNamePrefix="select"
-          defaultValue={state.groups.find(group => group.id == state.selectedGroupId)}
+          defaultValue={state.groups.find(group => group.id === state.selectedGroupId)}
           isDisabled={false}
           isLoading={false}
           isClearable={true}
@@ -85,7 +85,7 @@ const Creator = () => {
           }
           }
         />
-        <a className="waves-effect waves-light btn" onClick={clickAddGroup}>Add Group</a>
+        <button className="waves-effect waves-light btn" onClick={clickAddGroup}>Add Group</button>
       </div>
       <div className="separator-horizontal" />
       <div className="task-section">
@@ -103,7 +103,7 @@ const Creator = () => {
             value={description}
             onChange={handleChangeDescription} />
         </div>
-        <a className="waves-effect waves-light btn" onClick={clickAddTask}>Add Taks</a>
+        <button className="waves-effect waves-light btn" onClick={clickAddTask}>Add Taks</button>
       </div>
       <div className="cleaning-buttons">
         <button className="btn red lighten-1" onClick={() => { dispatch(clearTasks()) }}>Clean tasks</button>

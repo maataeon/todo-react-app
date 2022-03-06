@@ -1,4 +1,3 @@
-import Todo from './components/todo'
 import React from 'react';
 import './App.css';
 import Header from './components/header';
