@@ -39,6 +39,10 @@ input.input-task {
     
 }
 
+.creator input::placeholder {
+  color: #111;
+}
+
 .option-color-sample {
     width: 1rem;
     height: 1rem;
@@ -112,7 +116,7 @@ input.input-task {
     height: 3rem;
 }
 
-.creator a.btn {
+.creator .btn {
     margin: 0 2rem;
     padding: 0.25rem;
     min-width: 9rem;
